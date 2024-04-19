@@ -15,11 +15,11 @@ Kind is a tool that allows you to run Kubernetes clusters using Docker container
 ### Availability 
 Minikube, Kind and K3d are available on all OS ( Linux, MacOS, Windows). The following architectures are also supported :
 
-| Tools    | Arch                      |   |   |   |
-|----------|---------------------------|---|---|---|
-| minikube | amd64 arm64               |   |   |   |
-| kind     | amd64 arm64 ppc64le s390x |   |   |   |
-| k3d      | amd64 arm64 armv7         |   |   |   |
+| Tools    | Arch                      |
+| -------- | ------------------------- |
+| minikube | amd64 arm64               |
+| kind     | amd64 arm64 ppc64le s390x |
+| k3d      | amd64 arm64 armv7         |
 
 ### Automatization
 1. **Minikube** integrates good with popular automatization instruments like Ansible, Terraform, Chef та Puppet. Process are easily automated with simple minikube commands ``` minikube start ```, ```minikube stop```, ```minikube delete ```
