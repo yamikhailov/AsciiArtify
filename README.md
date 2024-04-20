@@ -1,5 +1,5 @@
 # AsciiArtify
-Local development toolchain analysis for Kubernetes
+This analysis compares tools for setting up a local Kubernetes cluster and integrating ArgoCD for application deployment.
 ## Introduction
 
 A brief descriptions of best tools for spinning up a Kubernetes cluster on localhost. The following variants we are going to compare:
